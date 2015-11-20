@@ -5,6 +5,7 @@ describe('Controller: MainCtrl', function () {
   // load the controller's module
   beforeEach(module('dentalrecMeanApp'));
   beforeEach(module('socketMock'));
+  beforeEach(module('stateMock'));
 
   var MainCtrl,
       scope,
